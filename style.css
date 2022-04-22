@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+
+body{
+    margin: 69px;
+    font-family: 'Arvo', serif;
+    background: url(imagens/clima.jpg) 
+    no-repeat; background-position: center;background-size: cover;
+    overflow: none;
+}
+ 
+.city{
+    font-size: 40px;
+   text-shadow: 2px 2px #00000058;
+}
+
+.date {
+    font-size: 18px;
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #0d0d0afb;
+    font-size: 60px;
+    font-weight: 1000;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+    
+  
+}
+.card {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #ffffff80;
+}
+
+.input-group{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #b74f4f00;
+}
+
+
+.weather{
+    font-size: 32px;
+}
+
+.low-high {
+    font-size: 22px;
+}
+#rel {
+    text-align: center;
+    height: 100px;
+    border: none;
+    color: #0d0d0afb;
+    font-size: 60px;
+    font-weight: 1000;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #ffffff00;
+    
+}
+
