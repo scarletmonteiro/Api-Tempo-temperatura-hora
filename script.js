@@ -125,7 +125,6 @@ function changeTemp() {
         temp_number.innerHTML = Math.round(c)
     }
 }
-
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
